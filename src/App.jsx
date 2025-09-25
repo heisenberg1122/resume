@@ -68,6 +68,7 @@ function App() {
               <ul>
                 <li>Currently pursuing my college studies and gaining knowledge in computer-related subjects.</li>
                 <li>Developing skills in teamwork, creativity, and problem-solving through academic projects.</li>
+              </ul> 
             </div>
           </div>
 
