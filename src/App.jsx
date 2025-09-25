@@ -14,9 +14,12 @@ function App() {
 
         <div className="section-title full-strip">Contact</div>
         <div className="contact">
-          <p><strong>Address</strong><br />Macabebe Pampanga</p>
-          <p><strong>Phone</strong><br />+639378229736</p>
-          <p><strong>E-mail</strong><br />cjmquiambao.student@ua.edu.ph</p>
+          <p><strong>Address</strong><br /></p>
+          <p className="contactinfo">Macabebe Pampanga</p>
+          <p><strong>Phone</strong><br /></p>
+          <p className="contactinfo">+639378229736</p>
+          <p><strong>E-mail</strong><br /></p>
+          <p className="contactinfo">cjmquiambao.student@ua.edu.ph</p>
         </div>
 
         <div className="section-title full-strip">Skills</div>
@@ -88,7 +91,7 @@ function App() {
             <span className="job-date">2017 – 2021</span>
             <div className="entry">
               <strong>High School</strong>
-              <p>Tesla</p>
+              <p>Macabebe High School</p>
               <ul>
                  <li>Learned the value of hard work, discipline, and consistent study habits.</li>
                  <li>Focused on building a strong academic foundation to prepare for higher education.</li>
@@ -161,17 +164,28 @@ function App() {
         }
 
         .contact p {
-          margin: 8px 0;
           font-size: 14px;
           word-wrap: break-word;
+          margin-top: -10px;
+          
         }
+        .contactinfo {
+          font-size: 16px;
+          word-wrap: break-word;
+          margin-bottom: 18px;
+          color: #d5d6d6;
+        }
+
+        
 
         .skills-list {
           list-style-type: disc;
           margin-left: 20px;
           font-size: 14px;
-          padding-right: 10px;
+          padding-left: 1px;
+          margin-top: -15px;
           overflow-wrap: break-word;
+          color: #d5d6d6;
         }
 
         .skills-list li {
@@ -180,13 +194,24 @@ function App() {
         }
 
         .main-content {
-          color: #343434;
+          color: #353535;
           width: 70%;
           padding: 30px;
         }
 
         .section {
-          margin-bottom: 20px;
+          margin-bottom: 45px;
+          margin-top: -15px;
+        }
+        .section p {
+          color: #353535;
+        }
+
+        .section li {
+          color: #353535;
+          font-size: 14px;
+          line-height: 1.6;
+          margin-bottom: 10px;
         }
 
         .section-heading {
