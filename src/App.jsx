@@ -15,7 +15,7 @@ function App() {
         <div className="section-title full-strip">Contact</div>
         <div className="contact">
           <p><strong>Address</strong><br />Macabebe Pampanga</p>
-          <p><strong>Phone</strong><br />09378229736</p>
+          <p><strong>Phone</strong><br />+639378229736</p>
           <p><strong>E-mail</strong><br />cjmquiambao.student@ua.edu.ph</p>
         </div>
 
@@ -43,8 +43,8 @@ function App() {
           <div className="job">
             <span className="job-date"></span>
             <div className="entry">
-              <strong>Master of Science in Information Technology</strong>
-              <p>University of the Assumption</p>
+              <strong>Senior High School STEM</strong>
+              <p>Colegio De San Lorenzo</p>
             </div>
           </div>
           <div className="job">
@@ -61,36 +61,36 @@ function App() {
           <h2 className="section-heading">Experience</h2>
           <hr />
           <div className="job">
-            <span className="job-date">2025 – Current</span>
+            <span className="job-date">2023 – Current</span>
             <div className="entry">
-              <strong>Director of Development Operations</strong>
-              <p>Google</p>
+              <strong>College Student</strong>
+              <p>University of the Assumption</p>
               <ul>
-               <li>Oversee and optimize end-to-end development operations, driving efficiency and strategic alignment across teams.</li>
-               <li>Champion Agile and Scrum methodologies, coaching cross-functional teams to adopt and sustain best practices.</li>
+                <li>Currently pursuing my college studies and gaining knowledge in computer-related subjects.</li>
+                <li>Developing skills in teamwork, creativity, and problem-solving through academic projects.</li>
+            </div>
+          </div>
+
+          <div className="job">
+            <span className="job-date">2021 – 2023</span>
+            <div className="entry">
+              <strong>Senior High School</strong>
+              <p>Colegio De San Lorenzo</p>
+              <ul>
+               <li>Earned certifications and built a strong foundation in computer-related fields.</li>
+               <li>Improved collaboration and communication skills through group activities and projects.</li>
               </ul>
             </div>
           </div>
 
           <div className="job">
-            <span className="job-date">2021 – Current</span>
+            <span className="job-date">2017 – 2021</span>
             <div className="entry">
-              <strong>Guest Lecturer</strong>
-              <p>University Of The Assumption, San Fernando, Province Of Pampanga, Philippines</p>
-              <ul>
-               <li>Designed and delivered dynamic lectures on specialized topics in technology and software engineering.</li>
-               <li>Encouraged student engagement through real-world applications, case studies, and collaborative learning.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="job">
-            <span className="job-date">2010 – 2016</span>
-            <div className="entry">
-              <strong>Lead Software Engineer</strong>
+              <strong>High School</strong>
               <p>Tesla</p>
               <ul>
-                 <li>Served dual roles as Project Manager and Scrum Master, ensuring timely and quality-driven project execution.</li>
+                 <li>Learned the value of hard work, discipline, and consistent study habits.</li>
+                 <li>Focused on building a strong academic foundation to prepare for higher education.</li>
               </ul>
             </div>
           </div>
